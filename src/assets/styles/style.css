@@ -10,3 +10,91 @@
 .test {
     color: red !important;
 }
+
+.paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+.head-1 {
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+.head-2 {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.head-3 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.head-4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.inputs {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.send-button {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 15px;
+    padding: 15px 50px;
+    background: linear-gradient(135deg, rgb(74, 117, 230), rgb(110, 100, 232), rgb(140, 85, 233));
+}
+
+.navigation {
+    background: linear-gradient(rgb(224, 235, 235), rgb(158, 192, 193), rgb(71, 136, 137));
+}
+
+.navigation ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    
+    font-size: 18px;
+
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    position: relative;
+
+    border-right: medium solid #000000;
+    border-radius: 22px;
+
+    padding: 10px 25px;
+    box-shadow: -2px 0px 0px 0px rgba(255, 255, 255) inset;
+
+    display: flex;
+    align-items: center;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.contact-form {
+    background-image: url('../img/back.png');
+    background-size: cover;
+    background-position: center;
+}
